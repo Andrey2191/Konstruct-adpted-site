@@ -1,0 +1,77 @@
+
+
+@media (max-width: 768px) {
+    .header {
+        width: 100%;
+    }
+
+    .container {
+        width: 85%;
+    }
+
+    .about__content {
+        justify-content: center;
+    }
+
+    .about__info-text {
+        margin-bottom: 40px;
+    }
+
+    .proposal__header-title::after {
+        left: calc(5% - 40px);
+    }
+    .proposal__button {
+        margin-top: 10px;
+    }
+
+    .signup--buttom {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 568px) {
+    
+
+    .nav {
+        display: none;
+    }
+
+    .container {
+        width: 85%;
+    }
+
+    .about__cards {
+        justify-content: center;
+     }
+     
+     .about__card {
+        width: 100%;
+        margin-bottom: 10px;
+     }
+
+     .about__card-title {
+         padding-left: 32px;
+     }
+
+     .proposal__header {
+         justify-content: center;
+         text-align: center;
+     }
+
+     .proposal__header-title::after {
+         display: none;
+     }
+
+     .proposal__card {
+         margin-bottom: 20px;
+     }
+
+     .footer__subtitle {
+         margin-top: 15px;
+     }
+     
+     .signup__form-title {
+         margin: 0;
+         text-align: center;
+     }
+}
